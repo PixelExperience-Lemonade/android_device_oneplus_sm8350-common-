@@ -463,6 +463,8 @@ my_product/priv-app/HotwordEnrollmentXGoogle.apk:product/priv-app/HotwordEnrollm
 
 # IFAA
 system_ext/priv-app/IFAAService/IFAAService.apk
+system_ext/priv-app/IFAAService/oat/arm64/IFAAService.odex
+system_ext/priv-app/IFAAService/oat/arm64/IFAAService.vdex
 vendor/bin/hw/vendor.oneplus.hardware.ifaa@2.0-service
 vendor/etc/init/vendor.oneplus.hardware.ifaa@2.0-service.rc
 vendor/lib64/vendor.oneplus.hardware.ifaa@2.0.so
