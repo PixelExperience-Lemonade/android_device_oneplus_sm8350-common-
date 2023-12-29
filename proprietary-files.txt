@@ -468,6 +468,15 @@ system_ext/priv-app/IFAAService/oat/arm64/IFAAService.vdex
 vendor/bin/hw/vendor.oneplus.hardware.ifaa@2.0-service
 vendor/etc/init/vendor.oneplus.hardware.ifaa@2.0-service.rc
 vendor/lib64/vendor.oneplus.hardware.ifaa@2.0.so
+odm/vendor/firmware/alipay.b07:system/etc/firmware/alipay.b07
+odm/vendor/firmware/alipay.b01:system/etc/firmware/alipay.b01
+odm/vendor/firmware/alipay.b06:system/etc/firmware/alipay.b06
+odm/vendor/firmware/alipay.b00:system/etc/firmware/alipay.b00
+odm/vendor/firmware/alipay.b02:system/etc/firmware/alipay.b02
+odm/vendor/firmware/alipay.mdt:system/etc/firmware/alipay.mdt
+odm/vendor/firmware/alipay.b03:system/etc/firmware/alipay.b03
+odm/vendor/firmware/alipay.b05:system/etc/firmware/alipay.b05
+odm/vendor/firmware/alipay.b04:system/etc/firmware/alipay.b04
 
 # IMS - from renoir - 22.5.11
 system_ext/app/ImsRcsService/ImsRcsService.apk|d03d3142f3518e755d02ace26b17170218ed8b4b
