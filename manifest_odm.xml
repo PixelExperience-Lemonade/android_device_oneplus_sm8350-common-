@@ -23,11 +23,11 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.oneplus.hardware.ifaa</name>
+        <name>vendor.oplus.hardware.biometrics.fingerprintpay</name>
         <transport>hwbinder</transport>
-        <version>2.0</version>
+        <version>1.0</version>
         <interface>
-            <name>IOneplusIfaa</name>
+            <name>IFingerprintPay</name>
             <instance>default</instance>
         </interface>
     </hal>

@@ -330,6 +330,22 @@ vendor/lib64/libspl.so
 vendor/lib64/libssd.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 
+# Fingerprint (alipay)
+odm/lib64/libifaa_factory.so
+odm/lib64/librpmbengclient.so
+odm/vendor/firmware/alipay.b00
+odm/vendor/firmware/alipay.b01
+odm/vendor/firmware/alipay.b02
+odm/vendor/firmware/alipay.b03
+odm/vendor/firmware/alipay.b04
+odm/vendor/firmware/alipay.b05
+odm/vendor/firmware/alipay.b06
+odm/vendor/firmware/alipay.b07
+odm/vendor/firmware/alipay.mdt
+odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service
+odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc
+odm/lib64/vendor.oplus.hardware.biometrics.fingerprintpay-V1-ndk_platform.so
+
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
@@ -460,23 +476,6 @@ my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:product/e
 my_product/framework/com.android.hotwordenrollment.common.util.jar:product/framework/com.android.hotwordenrollment.common.util.jar
 my_product/priv-app/HotwordEnrollmentOKGoogle.apk:product/priv-app/HotwordEnrollmentOKGoogle/HotwordEnrollmentOKGoogle.apk
 my_product/priv-app/HotwordEnrollmentXGoogle.apk:product/priv-app/HotwordEnrollmentXGoogle/HotwordEnrollmentXGoogle.apk
-
-# IFAA
-system_ext/priv-app/IFAAService/IFAAService.apk
-system_ext/priv-app/IFAAService/oat/arm64/IFAAService.odex
-system_ext/priv-app/IFAAService/oat/arm64/IFAAService.vdex
-vendor/bin/hw/vendor.oneplus.hardware.ifaa@2.0-service
-vendor/etc/init/vendor.oneplus.hardware.ifaa@2.0-service.rc
-vendor/lib64/vendor.oneplus.hardware.ifaa@2.0.so
-odm/vendor/firmware/alipay.b07:system/etc/firmware/alipay.b07
-odm/vendor/firmware/alipay.b01:system/etc/firmware/alipay.b01
-odm/vendor/firmware/alipay.b06:system/etc/firmware/alipay.b06
-odm/vendor/firmware/alipay.b00:system/etc/firmware/alipay.b00
-odm/vendor/firmware/alipay.b02:system/etc/firmware/alipay.b02
-odm/vendor/firmware/alipay.mdt:system/etc/firmware/alipay.mdt
-odm/vendor/firmware/alipay.b03:system/etc/firmware/alipay.b03
-odm/vendor/firmware/alipay.b05:system/etc/firmware/alipay.b05
-odm/vendor/firmware/alipay.b04:system/etc/firmware/alipay.b04
 
 # IMS - from renoir - 22.5.11
 system_ext/app/ImsRcsService/ImsRcsService.apk|d03d3142f3518e755d02ace26b17170218ed8b4b
