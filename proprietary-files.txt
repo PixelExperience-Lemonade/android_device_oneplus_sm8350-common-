@@ -331,6 +331,7 @@ vendor/lib64/libssd.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 
 # Fingerprint (alipay)
+odm/init.oplus.seccommon.rc:odm/etc/init/init.oplus.seccommon.rc
 odm/lib64/libifaa_factory.so
 odm/lib64/librpmbengclient.so
 odm/vendor/firmware/alipay.b00
